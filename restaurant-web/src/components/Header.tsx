@@ -30,7 +30,7 @@ export default function Header({}: Props) {
   }, []);
 
   return (
-    <div
+    <header
       className={`${
         active ? `bg-black py-4` : `bg-none py-8`
       } fixed top-0 w-full z-50 left-0 right-0 transition-all duration-200`}
@@ -61,6 +61,6 @@ export default function Header({}: Props) {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
